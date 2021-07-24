@@ -51,3 +51,18 @@ hr {
 i {
     margin-left: 6px;
 }
+
+.projects img {
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+#space-cruise {
+    background-color: rgba(255, 255, 255, 0.178);
+    background;
+    height: 300px;
+    width: 260px;
+    text-align: center;
+    border: 2px solid black;
+}
