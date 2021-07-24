@@ -21,3 +21,28 @@ a {
 a:hover img {
     filter: brightness(100);
 }
+
+table {
+    width: 100%;
+}
+
+col {
+    width: 20%;
+}
+
+th,td {
+    text-align: left;
+}
+
+td:hover {
+    background: rgba(255, 255, 255, 0.233);
+}
+
+.skills ul {
+    float: left;
+    list-style-type: none;
+}
+
+hr {
+    clear: both;
+}
