@@ -1,0 +1,23 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(#b7094c, #0091ad);
+}
+
+.contact-logo {
+    height: 50px;
+    filter: brightness(0);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover img {
+    filter: brightness(100);
+}
