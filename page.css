@@ -30,12 +30,14 @@ col {
     width: 20%;
 }
 
-th,td {
+.skills li,ul {
     text-align: left;
+    padding: 4px;
 }
 
-td:hover {
+.skills li:hover {
     background: rgba(255, 255, 255, 0.233);
+    border-radius: 10px;
 }
 
 .skills ul {
@@ -45,4 +47,7 @@ td:hover {
 
 hr {
     clear: both;
+}
+i {
+    margin-left: 6px;
 }
