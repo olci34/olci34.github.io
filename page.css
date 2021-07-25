@@ -1,16 +1,20 @@
 html, body {
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
 }
 
 body {
     background-image: linear-gradient(#b7094c, #0091ad);
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
 }
 
 .contact-logo {
     height: 50px;
+    padding-right: 20px;
     filter: brightness(0);
 }
 
@@ -30,24 +34,30 @@ col {
     width: 20%;
 }
 
-.skills li,ul {
+#skills li {
     text-align: left;
     padding: 4px;
 }
 
-.skills li:hover {
+ul {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 0;
+    padding-bottom: 4px;
+    padding-right: 12px;
+}
+
+#skills li:hover {
     background: rgba(255, 255, 255, 0.233);
     border-radius: 10px;
 }
 
-.skills ul {
+
+ul {
     float: left;
     list-style-type: none;
 }
 
-hr {
-    clear: both;
-}
 i {
     margin-left: 6px;
 }
@@ -58,42 +68,69 @@ i {
 }
 
 .projects {
-    background-color: rgba(255, 255, 255, 0.178);
     height: 300px;
     width: 260px;
     text-align: center;
     border: 2px solid black;
     margin: 12px;
     float: left;
+    background-color: rgba(255, 255, 255, 0.103);
 }
 
-.about {
+#about {
+    position: relative;
     height: 50%;
     width: 50%;
     left: 25%;
-    background: rgba(144, 238, 144, 0.178);
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
-.skills {
-    height: 50%;
-    width: 65%;
-    background: rgba(144, 238, 144, 0.178);
-
+#name {
+    font-size: 50px;
 }
 
-.about:hover, .skills:hover {
-    background-color: #eccaff38;
-    border-radius: 25px;
+#skills {
+    position: relative;
+    height: 40vh;
+    width: fit-content;
+    margin-bottom: 3%;
+    left: 25%;
 }
 
-.education {
-    height: 33%;
-    width: 33%;
-    background: rgba(144, 238, 144, 0.178);
+#education {
+    position: relative;
+    height: 25vh;
+    width: fit-content;
+    margin-bottom: 3%;
+    left: 25%;
 }
 
 #project-list {
-    height: 50%;
-    width: fit-content;
-    background: rgba(144, 238, 144, 0.178);
+    position: relative;
+    height: 40vh;
+    width: 60%;
+    margin-bottom: 15%;
+    left: 25%;
+}
+
+#sticky-intro {
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.103);
+    top: 0;
+    z-index: 100;
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
+.navbar-item {
+    padding: 10px;
+}
+
+.navbar-item:hover {
+    background-color: #c8b6ff63;
+    border-radius: 15px;
 }

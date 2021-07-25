@@ -7,9 +7,16 @@
   </head>
 
   <body>
-    <div class="about" data-aos="fade-right" data-aos-delay="200" data-aos-easing="ease-in-out" data-aos-duration="1000">
-      <h1>Murat Ogulcan Sahin</h1>
+    <div id="sticky-intro">
+      <h1 id="name">Murat Ogulcan Sahin</h1>
       <p><strong> Full Stack Developer </strong></p>
+      <hr/>
+      <span id="about-link" class="navbar-item"> About Me </span>
+      <span id="skills-link" class="navbar-item"> Skills </span>
+      <span id="education-link" class="navbar-item"> Education </span>
+      <span id="projects-link" class="navbar-item"> Projects </span>
+    </div>
+    <div id="about" data-aos="fade-right">
       <h2>About Me</h2>
       <p>
         Recent Flatiron School grad. Holding a (BS) Maritime Transportation and
@@ -54,11 +61,10 @@
         />
       </a>
     </div>
-    <hr />
-    <div class="skills" data-aos="fade-left" data-aos-delay="200">
+    <div id="skills" data-aos="fade-right">
       <h2>Skills</h2>
       <ul>
-        <li><h4>Languages</h4></li>
+        <li><strong>Languages</strong></li>
         <li>Ruby</li>
         <li>JavaScript</li>
         <li>SQL</li>
@@ -67,7 +73,7 @@
         <li>Swift</li>
       </ul>
       <ul>
-        <li><h4>Frameworks</h4></li>
+        <li><strong>Frameworks</strong></li>
         <li>Rails</li>
         <li>Sinatra</li>
         <li>React</li>
@@ -75,36 +81,34 @@
         <li>Three.js</li>
       </ul>
       <ul>
-        <li><h4>Database and Cloud Systems</h4></li>
+        <li><strong>Database and Cloud Systems</strong></li>
         <li>SQLite3</li>
         <li>PostgreSQL</li>
         <li>Firebase</li>
       </ul>
       <ul>
-        <li><h4>Software Development Techniques</h4></li>
+        <li><strong>Software Development Techniques</strong></li>
         <li>REST</li>
         <li>AJAX</li>
       </ul>
       <ul>
-        <li><h4>Version Control Systems</h4></li>
+        <li><strong>Version Control Systems</strong></li>
         <li>Git</li>
       </ul>
     </div>
-    <hr />
-    <div class="education" data-aos="fade-right" data-aos-delay="200">
+    <div id="education" data-aos="fade-right">
       <h2>Education</h2>
       <ul>
         <li><strong> Flatiron School </strong> 01/2021 - 06/2021</li>
         <span> Full Stack Web Development </span>
-        <br/><br/>
+        <br /><br />
         <li><strong> Istanbul University </strong> 09/2011 - 07/2015</li>
         <span> Maritime Transportation and Management Engineering (BS)</span>
         <li><i> Related Studies: Statistics, Mathematics </i></li>
       </ul>
     </div>
-    <hr />
-    <div id="project-list" data-aos="fade-left" data-aos-delay="200">
-      <h2>Projects</h2>
+    <div id="project-list" data-aos="fade-right">
+      <h2>Latest Projects</h2>
       <div class="projects" id="space-cruise">
         <img
           src="https://media.giphy.com/media/tvxoKkQSp5zyQ3MttG/giphy.gif"
@@ -138,9 +142,8 @@
         <span><strong>Frameworks: </strong> Rails </span>
       </div>
     </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="page.js"></script>
   </body>
 </html>
