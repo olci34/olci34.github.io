@@ -53,16 +53,47 @@ i {
 }
 
 .projects img {
-    height: 200px;
     width: 200px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-#space-cruise {
+.projects {
     background-color: rgba(255, 255, 255, 0.178);
-    background;
     height: 300px;
     width: 260px;
     text-align: center;
     border: 2px solid black;
+    margin: 12px;
+    float: left;
+}
+
+.about {
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    background: rgba(144, 238, 144, 0.178);
+}
+
+.skills {
+    height: 50%;
+    width: 65%;
+    background: rgba(144, 238, 144, 0.178);
+
+}
+
+.about:hover, .skills:hover {
+    background-color: #eccaff38;
+    border-radius: 25px;
+}
+
+.education {
+    height: 33%;
+    width: 33%;
+    background: rgba(144, 238, 144, 0.178);
+}
+
+#project-list {
+    height: 50%;
+    width: fit-content;
+    background: rgba(144, 238, 144, 0.178);
 }
