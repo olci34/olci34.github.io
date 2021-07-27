@@ -27,7 +27,7 @@ const scroll = (e) => {
       break;
     case "projects-link":
       window.scroll({
-          top: 1200,
+          top: 1300,
           left: 0,
           behavior: "smooth"});
       break;

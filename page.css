@@ -39,7 +39,7 @@ col {
     padding: 4px;
 }
 
-ul {
+#skills ul {
     text-align: left;
     padding-left: 0;
     margin-top: 0;
@@ -49,32 +49,18 @@ ul {
 
 #skills li:hover {
     background: rgba(255, 255, 255, 0.233);
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 
 ul {
     float: left;
     list-style-type: none;
+    padding-left: 0;
 }
 
 i {
     margin-left: 6px;
-}
-
-.projects img {
-    width: 200px;
-    padding-top: 20px;
-}
-
-.projects {
-    height: 300px;
-    width: 260px;
-    text-align: center;
-    border: 2px solid black;
-    margin: 12px;
-    float: left;
-    background-color: rgba(255, 255, 255, 0.103);
 }
 
 #about {
@@ -88,6 +74,7 @@ i {
 
 #name {
     font-size: 50px;
+    text-shadow: 0 0 10px #c8b6ff;
 }
 
 #skills {
@@ -102,16 +89,39 @@ i {
     position: relative;
     height: 25vh;
     width: fit-content;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
     left: 25%;
 }
 
 #project-list {
     position: relative;
-    height: 40vh;
+    height: fit-content;
     width: 60%;
     margin-bottom: 15%;
     left: 25%;
+}
+
+#project-list img {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #00000086
+}
+
+#project-list li a {
+    margin: 10px;
+    padding: 10px;
+    color: chartreuse#c8b6ff;
+    border: 2px solid #c8b6ff;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+}
+
+#project-list li a:hover {
+    background-color: #ffd6ff;
+}
+
+h3 {
+    display: inline;
 }
 
 #sticky-intro {
@@ -132,5 +142,9 @@ i {
 
 .navbar-item:hover {
     background-color: #c8b6ff63;
-    border-radius: 15px;
+    border-radius: 25px;
+}
+
+#project-list li {
+    margin-bottom: 60px;
 }
