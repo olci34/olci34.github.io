@@ -77,6 +77,10 @@ i {
     text-shadow: 0 0 10px #c8b6ff;
 }
 
+#title {
+    text-shadow: 0 0 10px #c8b6ff;
+}
+
 #skills {
     position: relative;
     height: 40vh;
