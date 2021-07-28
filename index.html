@@ -18,11 +18,10 @@
         <span id="education-link" class="navbar-item"> Education </span>
         <span id="projects-link" class="navbar-item"> Latest Projects </span>
       </div>
-      
     </div>
     <div id="about" data-aos="fade-right">
       <h2>About Me</h2>
-      <img src="ben.jpg" alt="portrait" id="photo"/>
+      <img src="ben.jpg" alt="portrait" id="photo" />
       <p>
         Recent Flatiron School grad. Holding a (BS) Maritime Transportation and
         Management Engineering degree. Picked up interest in software
@@ -114,15 +113,15 @@
     </div>
     <div id="project-list" data-aos="fade-right">
       <h2>Latest Projects</h2>
-      <ul >
+      <ul>
         <li id="space-cruise">
-          <div >
+          <div>
             <img
               src="https://media.giphy.com/media/tvxoKkQSp5zyQ3MttG/giphy.gif"
               alt="Space Cruise"
             />
           </div>
-          <div >
+          <div>
             <h3>Space Cruise</h3>
             <a href="https://github.com/olci34/SpaceCruise" target="_blank">
               Code
@@ -145,10 +144,10 @@
               Three.js can bring to frontend. Recently, I am still working on
               adding features such as displaying QR code tickets.
             </p>
-            <p
-              ><strong>Languages: </strong> Ruby, JavaScript
-              <strong>Frameworks: </strong> Rails, React, Redux, Three.js</p
-            >
+            <p>
+              <strong>Languages: </strong> Ruby, JavaScript
+              <strong>Frameworks: </strong> Rails, React, Redux, Three.js
+            </p>
           </div>
         </li>
         <li id="dance-memory">
@@ -177,8 +176,8 @@
               actions based on user interaction helped me to establish web
               application flow between backend and frontend.
             </p>
-            <p
-              ><strong>Languages: </strong> Ruby, JavaScript
+            <p>
+              <strong>Languages: </strong> Ruby, JavaScript
               <strong>Frameworks: </strong> Rails
             </p>
           </div>
@@ -207,15 +206,32 @@
               with Facebook using OAuth. Bcrypt is implemented to keep user
               password safe in database.
             </p>
-            <p
-              ><strong>Languages: </strong> Ruby
+            <p>
+              <strong>Languages: </strong> Ruby
               <strong>Frameworks: </strong> Rails
             </p>
           </div>
         </li>
       </ul>
     </div>
-
+    <div id="adobe-dc-view"></div>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("adobe_dc_view_sdk.ready", function () {
+        var adobeDCView = new AdobeDC.View({ clientId: "7d378abc401d43b495e37ab4b80b5ff3" });
+        adobeDCView.previewFile(
+          {
+            content: {
+              location: {
+                url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf",
+              },
+            },
+            metaData: { fileName: "Bodea Brochure.pdf" },
+          },
+          { embedMode: "LIGHT_BOX" }
+        );
+      });
+    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="page.js"></script>
   </body>
