@@ -36,6 +36,7 @@
         approaches, adapting new skills, listening to podcasts, traveling,
         producing music, drawing and playing soccer.
       </p>
+      <button id="resume">View Resume</button>
       <a href="https://www.linkedin.com/in/muratogulcansahin/" target="_blank">
         <img
           class="contact-logo"
@@ -216,22 +217,6 @@
     </div>
     <div id="adobe-dc-view"></div>
     <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-    <script type="text/javascript">
-      document.addEventListener("adobe_dc_view_sdk.ready", function () {
-        var adobeDCView = new AdobeDC.View({ clientId: "7d378abc401d43b495e37ab4b80b5ff3" });
-        adobeDCView.previewFile(
-          {
-            content: {
-              location: {
-                url: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ade29aef-5e9b-4d88-8da5-2eb76bb4a03a",
-              },
-            },
-            metaData: { fileName: "Murat Ogulcan Sahin Resume.pdf" },
-          },
-          { embedMode: "LIGHT_BOX" }
-        );
-      });
-    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="page.js"></script>
   </body>

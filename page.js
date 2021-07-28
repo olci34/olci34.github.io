@@ -40,3 +40,18 @@ const scroll = (e) => {
 Array.from(document.getElementsByClassName("navbar-item")).map((ele) =>
   ele.addEventListener("click", scroll)
 );
+
+document.getElementById("resume").addEventListener('click', function () {
+  var adobeDCView = new AdobeDC.View({ clientId: "7d378abc401d43b495e37ab4b80b5ff3" });
+  adobeDCView.previewFile(
+    {
+      content: {
+        location: {
+          url: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ade29aef-5e9b-4d88-8da5-2eb76bb4a03a",
+        },
+      },
+      metaData: { fileName: "Resume.pdf" },
+    },
+    { embedMode: "LIGHT_BOX" }
+  );
+});
