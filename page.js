@@ -47,7 +47,7 @@ document.getElementById("resume").addEventListener('click', function () {
     {
       content: {
         location: {
-          url: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:ade29aef-5e9b-4d88-8da5-2eb76bb4a03a",
+          url: "resume.pdf",
         },
       },
       metaData: { fileName: "Resume.pdf" },
