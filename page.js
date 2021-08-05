@@ -3,7 +3,7 @@ AOS.init({
   easing: "ease",
   duration: 1000
 });
-let slider = 0;
+
 const scroll = (e) => {
   switch (e.target.id) {
     case "about-link":
@@ -55,3 +55,4 @@ document.getElementById("resume").addEventListener('click', function () {
     { embedMode: "LIGHT_BOX" }
   );
 });
+
