@@ -12,6 +12,64 @@ body {
     font-size: larger;
 }
 
+#sticky-intro {
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.103);
+    z-index: 100;
+    top: 0;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+#photo {
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.384);
+    box-shadow: 0px 0px 20px 0px white;
+    margin-top: 10px;
+}
+
+#photodiv {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+#name {
+    font-size: 50px;
+}
+
+#navbar {
+    clear: both;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#header {
+    text-shadow: 0 0 10px #c8b6ff;
+    border-bottom: 2px solid white;
+}
+
+.navbar-item {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navbar-item:hover {
+    background-color: #c8b6ff63;
+    border-radius: 25px;
+}
+
+
+
+
+
+
 .contact-logo {
     height: 50px;
     padding-right: 20px;
@@ -72,23 +130,7 @@ i {
     margin-bottom: 10%;
 }
 
-#photo {
-    height: 180px;
-    border-radius: 50%;
-    border: 6px solid rgba(255, 255, 255, 0.384);
-    box-shadow: 0px 0px 20px 0px white;
-    position: absolute;
-    left: -30%;
-}
 
-#name {
-    font-size: 50px;
-    text-shadow: 0 0 10px #c8b6ff;
-}
-
-#title {
-    text-shadow: 0 0 10px #c8b6ff;
-}
 
 #skills {
     position: relative;
@@ -137,41 +179,11 @@ h3 {
     display: inline;
 }
 
-#sticky-intro {
-    position: -webkit-sticky;
-    position: sticky;
-    text-align: center;
-    backdrop-filter: blur(8px);
-    background-color: rgba(255, 255, 255, 0.103);
-    top: 0;
-    z-index: 100;
-    padding: 10px;
-    border-bottom: 2px solid white;
-}
 
-#navbar {
-    text-align: center;
-    margin-top: 8px;
-}
 
-#header {
-    position: static;
-    text-align: center;
-    border-bottom: 2px solid white;
-}
 
-.navbar-item {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.navbar-item:hover {
-    background-color: #c8b6ff63;
-    border-radius: 25px;
-}
 
 #project-list li {
     margin-bottom: 60px;
 }
+
