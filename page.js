@@ -15,19 +15,19 @@ const scroll = (e) => {
       break;
     case "skills-link":
       window.scroll({
-          top: 450,
+          top: 550,
           left:0,
           behavior: "smooth"});
       break;
     case "education-link":
       window.scroll({
-          top: 880,
+          top: 980,
           left: 0,
           behavior: "smooth"});
       break;
     case "projects-link":
       window.scroll({
-          top: 1300,
+          top: 1550,
           left: 0,
           behavior: "smooth"});
       break;
